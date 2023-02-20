@@ -1,10 +1,9 @@
-import { Text, View } from "react-native";
-import { WelcomeScreen } from "./src/screens";
+import { Root } from "./src/navigators";
 
 
 const App = () =>{
   return (
-    <WelcomeScreen/>
+    <Root/>
   )
 }
 
