@@ -12,7 +12,6 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center'
     },
-
     title:{
         fontSize: 32,
         fontWeight: "bold"
@@ -20,7 +19,7 @@ const styles = StyleSheet.create({
     btn:{
         padding: 16,
         backgroundColor: '#47E086',
-        borderRadius: 16
+        borderRadius: 10
         
     },
     btn_text:{
@@ -32,6 +31,9 @@ const styles = StyleSheet.create({
     input:{
         padding: 16,
         fontWeight: "bold",
+        backgroundColor: '#fff',
+        marginBottom: 20,
+        borderRadius: 10
         
     }
 })

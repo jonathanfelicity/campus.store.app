@@ -1,6 +1,5 @@
 import { Root } from "./src/navigators";
 
-
 const App = () =>{
   return (
     <Root/>

@@ -1,6 +1,7 @@
 import { View } from "react-native"
 
-const HomeScreen = () =>{
+
+const NotificationScreen = () =>{
     return (
         <View>
 
@@ -9,5 +10,4 @@ const HomeScreen = () =>{
 }
 
 
-
-export default HomeScreen
+export default NotificationScreen
