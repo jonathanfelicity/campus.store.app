@@ -1,9 +1,16 @@
 import { View } from "react-native"
+import { styles } from "../res"
 
+const notification = [
+    {
+        id: 1, 
+        title: ""
+    }
+]
 
 const NotificationScreen = () =>{
     return (
-        <View>
+        <View style={[ styles.container ]}>
 
         </View>
     )
