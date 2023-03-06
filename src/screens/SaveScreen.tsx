@@ -20,24 +20,24 @@ const bookmark = [
     }
 ]
 
-const SaveScreen = () =>{
+const SaveScreen = () => {
     return (
         <View style={[styles.container]}>
-            <TopBar title="Bookmark"/>
+            <TopBar title="Bookmark" />
 
             <FlatList
                 data={bookmark}
-                renderItem={({item})=>{
+                renderItem={({ item }) => {
                     return (
                         <View>
                             <Text>{item.title}</Text>
-                            
+
                         </View>
                     )
                 }}
                 keyExtractor={item => item.id}
             />
-            <Button title="Clear All"/>
+            <Button title="Clear All" />
         </View>
     )
 }

@@ -59,7 +59,7 @@ const HomeScreen = () => {
                 <Text>Ad Categories</Text>
                 <FlatList
                     data={menu}
-                    numColumns={3}
+                
                     renderItem={({item})=>{
                         return (
                             <TouchableOpacity style={c_styles.item}>
