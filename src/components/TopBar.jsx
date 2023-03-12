@@ -1,5 +1,5 @@
 import { View, Text, TouchableOpacity } from "react-native"
-import Icon from 'react-native-vector-icons/FontAwesome5';
+import Icon from 'react-native-vector-icons/AntDesign';
 import { styles } from "../res"
 
 const TopBar = ({ title, }) => {
@@ -10,7 +10,7 @@ const TopBar = ({ title, }) => {
             <TouchableOpacity onPress={ ()=>{
                 // navigation.navigate('NotificatonScreen')
             }}>
-                <Icon name="comments" size={30} color="#900"/>
+                <Icon name="search1" size={30} color="#900"/>
             </TouchableOpacity>
         </View>
     )
