@@ -1,5 +1,5 @@
 import { Text, View, TextInput, FlatList, StyleSheet, TouchableOpacity } from "react-native"
-import Icon from 'react-native-vector-icons/FontAwesome5';
+import Icon from 'react-native-vector-icons/AntDesign';
 import { TopBar } from "../components";
 
 
@@ -46,7 +46,7 @@ const HomeScreen = () => {
                 borderRadius: 10
 
             }}>
-                <Icon name="comments" size={25} color="#f1ab1f" />
+                <Icon name="search1" size={25} color="#f1ab1f" />
                 <TextInput
                     placeholder="What do you want?"
                 />

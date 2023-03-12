@@ -10,7 +10,7 @@ const TopBar = ({ title, }) => {
             <TouchableOpacity onPress={ ()=>{
                 // navigation.navigate('NotificatonScreen')
             }}>
-                <Icon name="search1" size={30} color="#900"/>
+                <Icon name="bells" size={30} color="#900"/>
             </TouchableOpacity>
         </View>
     )
