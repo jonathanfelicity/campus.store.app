@@ -1,8 +1,11 @@
 import { Root } from "./src/navigators";
+import { UserContextProvider } from "./src/context/UserContext";
 
 const App = () =>{
   return (
-    <Root/>
+    <UserContextProvider>
+      <Root/>
+    </UserContextProvider>
   )
 }
 
